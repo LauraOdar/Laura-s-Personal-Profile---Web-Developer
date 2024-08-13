@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+body {
+  background-color: rgb(102, 148, 150);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #8FBC8F;
+  font-family: "Anek Devanagari", sans-serif;
+  font-size: 30px;
+}
+
+h2 {
+  color: #4d9d93;
+  font-family: "Anek Devanagari", sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: darkslateblue;
+  text-decoration: none;
+  font-size: 16px
+}
+
+a:hover {
+  text-decoration: underline;
+  }
+
+p {
+  color: darkslateblue;
+  font-family: "Anek Devanagari", sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  image-resolution: 1;
+  text-align: center;
+}
+
+.card {
+  background-color: blanchedalmond;
+  text-align: center;
+  border-radius: 50px;
+  padding: 3%;
+  margin: 2%;
+}
+
+.img-circle {
+  border-radius: 85%;
+  width: 250px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
